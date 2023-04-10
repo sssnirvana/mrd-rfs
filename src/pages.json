@@ -1,0 +1,398 @@
+/* pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages */
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ 
+		{
+			"path": "home/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "home/index/MessageDetail",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		{
+			"path": "home/member/superDetail",
+			"style": {
+				"navigationBarTitleText": "会员详情"
+			}
+		},
+		{
+			"path": "home/member/groupDetail",
+			"style": {
+				"navigationBarTitleText": "成长会员详情"
+			}
+		},
+		{
+			"path": "home/member/buyList",
+			"style": {
+				"navigationBarTitleText": "购买记录"
+			}
+		},
+		{
+			"path": "home/standard/award",
+			"style": {
+				"navigationBarTitleText": "达标奖励"
+			}
+		},
+		{
+			"path": "home/creditCard/index",
+			"style": {
+				"navigationBarTitleText": "信用卡认证"
+			}
+		},
+		{
+			"path": "home/withdrawal/index",
+			"style": {
+				"navigationBarTitleText": "提现首页"
+			}
+		},
+		{
+			"path": "home/withdrawal/confirmWithdrawal",
+			"style": {
+				"navigationBarTitleText": "确认提现"
+			}
+		},
+		{
+			"path": "home/withdrawal/detail",
+			"style": {
+				"navigationBarTitleText": "提现详情"
+			}
+		},{
+			"path": "home/webView/index",
+			"style": {
+				"navigationBarTitleText": "协议"
+			}
+		},
+		{
+			"path": "pages/login/passwordLogin",
+			"style": {
+				"navigationBarTitleText": "密码登录"
+			}
+		},
+		{
+			"path": "pages/login/forgotPassword",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/login/authCode",
+			"style": {
+				"navigationBarTitleText": "短信验证码"
+			}
+		},
+		{
+			"path": "pages/login/settingNewPassword",
+			"style": {
+				"navigationBarTitleText": "设置新密码"
+			}
+		},
+		{
+			"path": "pages/login/orgPhone",
+			"style": {
+				"navigationBarTitleText": "输入原手机号"
+			}
+		},
+		{
+			"path": "pages/login/newPhone",
+			"style": {
+				"navigationBarTitleText": "输入新手机号"
+			}
+		},
+		{
+			"path": "mp_ecard_sdk/index/index",
+			"style": {
+				"navigationBarTitleText": "腾讯云E证通授权"
+			}
+		},
+		{
+		"path": "mp_ecard_sdk/protocol/eid/eid",
+			"style": {
+				"navigationBarTitleText": "eID数字身份⼩程序服务协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		"path": "mp_ecard_sdk/protocol/privacy/privacy",
+			"style": {
+				"navigationBarTitleText": "腾讯隐私政策",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "mp_ecard_sdk/protocol/service/service",
+			"style": {
+				"navigationBarTitleText": "腾讯云E证通服务协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "mp_ecard_sdk/protocol/userAccredit/userAccredit",
+			"style": {
+				"navigationBarTitleText": "⽤户授权协议",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"subPackages":[
+		
+		// 分包完善信息
+		{
+			"root": "setInfo",
+			"pages": [
+				{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh":true
+					}
+				},
+				{
+					"path": "index/setCard",
+					"style": {
+						"navigationBarTitleText": "完善信息"
+					}
+				},
+				{
+					"path": "verified/addIdCard",
+					"style": {
+						"navigationBarTitleText": "绑定身份证"
+					}
+				},
+				{
+					"path": "verified/ocrResult",
+					"style": {
+						"navigationBarTitleText": "认证结果"
+					}
+				},
+				{
+					"path": "verified/authenticationResult",
+					"style": {
+						"navigationBarTitleText": "认证结果"
+					}
+				},
+				{
+					"path": "verified/addBusiness",
+					"style": {
+						"navigationBarTitleText": "绑定商户"
+					}
+				},
+				{
+					"path": "verified/addBnnkCard",
+					"style": {
+						"navigationBarTitleText": "绑定银行卡"
+					}
+				},
+				{
+					"path": "verified/addCreditCard",
+					"style": {
+						"navigationBarTitleText": "绑定信用卡"
+					}
+				},
+				{
+					"path": "verified/addUsInfo",
+					"style": {
+						"navigationBarTitleText": "用户信息"
+					}
+				},
+				{
+					"path": "setPrd/index",
+					"style": {
+						"navigationBarTitleText": "绑定设备首页"
+					}
+				},
+				{
+					"path": "setPrd/replace",
+					"style": {
+						"navigationBarTitleText": "设备换绑第一步"
+					}
+				},
+				{
+					"path": "setPrd/replaceConfirm",
+					"style": {
+						"navigationBarTitleText": "设备换绑确认"
+					}
+				},
+				{
+					"path": "setPrd/next",
+					"style": {
+						"navigationBarTitleText": "绑定设备确认"
+					}
+				},
+				{
+					"path": "setPrd/selectPrd",
+					"style": {
+						"navigationBarTitleText": "绑定产品"
+					}
+				},
+				{
+					"path": "verified/reviseBankCard",
+					"style": {
+						"navigationBarTitleText": " 修改结算卡"
+					}
+				},
+				{
+					"path": "setPrd/selectSuperPrd",
+					"style": {
+						"navigationBarTitleText": "购买超级会员"
+					}
+				},{
+					"path": "verified/moreCreditCard",
+					"style": {
+						"navigationBarTitleText": " 新增信用卡"
+					}
+				}
+			]
+		},
+		// 分包产品详情
+		{
+			"root": "product",
+			"pages": [
+				{
+					"path": "super/detail",
+					"style": {
+						"navigationBarTitleText": "超级会员详情"
+					}
+				},
+				{
+					"path": "first/detail",
+					"style": {
+						"navigationBarTitleText": "首刷详情"
+					}
+				},
+				{
+					"path": "standard/detail",
+					"style": {
+						"navigationBarTitleText": "押金达标详情"
+					}
+				},
+				{
+					"path": "standard/detailRule",
+					"style": {
+						"navigationBarTitleText": "押金达标版本"
+					}
+				},
+				{
+					"path": "growUp/detail",
+					"style": {
+						"navigationBarTitleText": "成长会员"
+					}
+				},
+				{
+					"path": "order/promise",
+					"style": {
+						"navigationBarTitleText": "签字确认",
+						"disableScroll":true
+					}
+				},
+				{
+					"path": "order/pay",
+					"style": {
+						"navigationBarTitleText": "刷卡支付"
+					}
+				},
+				{
+					"path": "order/face",
+					"style": {
+						"navigationBarTitleText": "人脸合身"
+					}
+				}
+			]
+		},
+		// 分包我的
+		{
+			"root": "user",
+			"pages": [
+				{
+					"path": "memberManage/index",
+					"style": {
+						"navigationBarTitleText": "账号管理"
+					}
+				},
+				{
+					"path": "settlementCard/index",
+					"style": {
+						"navigationBarTitleText": "结算卡管理"
+					}
+				},
+				{
+					"path": "settlementCard/agreement",
+					"style": {
+						"navigationBarTitleText": "修改须知"
+					}
+				},
+				{
+					"path": "agreement/index",
+					"style": {
+						"navigationBarTitleText": "协议管理"
+					}
+				},
+				{
+					"path": "jurisdiction/index",
+					"style": {
+						"navigationBarTitleText": "个人信息收集清单"
+					}
+				},
+				{
+					"path": "info/index",
+					"style": {
+						"navigationBarTitleText": "个人信息"
+					}
+				},
+				{
+					"path": "info/toEmail",
+					"style": {
+						"navigationBarTitleText": "个人信息导出"
+					}
+				},
+				{
+					"path": "books/index",
+					"style": {
+						"navigationBarTitleText": "我的账本",
+						"enablePullDownRefresh":true
+					}
+				},
+				{
+					"path": "books/detail",
+					"style": {
+						"navigationBarTitleText": "交易详情"
+					}
+				},
+				{
+					"path": "books/purchase",
+					"style": {
+						"navigationBarTitleText": "验购单"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"usingComponents":{
+		"BankCard": "/setInfo/verified/components/personal/BankCard"
+	},
+	"uniIdRouter": {}
+}

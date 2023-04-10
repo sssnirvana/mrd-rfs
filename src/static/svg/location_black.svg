@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>location</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-881.000000, -575.000000)">
+            <g id="location" transform="translate(881.000000, 575.000000)">
+                <rect id="bg" x="0" y="0" width="20" height="20"></rect>
+                <g id="Color1" stroke-linecap="round" stroke-linejoin="round" transform="translate(3.333333, 1.666667)" stroke="#333333" stroke-width="1.5">
+                    <path d="M13.3333333,6.66666667 C13.3333333,12.5 6.66666667,16.6666667 6.66666667,16.6666667 C6.66666667,16.6666667 0,12.5 0,6.66666667 C0,2.98476667 2.98476667,0 6.66666667,0 C10.3485833,0 13.3333333,2.98476667 13.3333333,6.66666667 Z" id="路径"></path>
+                    <path d="M6.66666667,9.16666667 C8.04741667,9.16666667 9.16666667,8.04741667 9.16666667,6.66666667 C9.16666667,5.28596667 8.04741667,4.16666667 6.66666667,4.16666667 C5.28591667,4.16666667 4.16666667,5.28596667 4.16666667,6.66666667 C4.16666667,8.04741667 5.28591667,9.16666667 6.66666667,9.16666667 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

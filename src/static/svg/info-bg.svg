@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="812"></rect>
+        <linearGradient x1="50%" y1="6.46010316%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0D67FF" offset="0.0928758741%"></stop>
+            <stop stop-color="#B1CDFC" offset="57.4669415%"></stop>
+            <stop stop-color="#FAFAFA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="156.032933%" y1="32.5803705%" x2="-9.80977291%" y2="40.2276327%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EEF4FF" offset="24.6016089%"></stop>
+            <stop stop-color="#B0CDFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-1.5%" y="-1.5%" width="102.9%" height="102.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-2.6%" y="-2.6%" width="105.2%" height="105.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="02-激活前" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="矩形备份" fill="#FAFAFA" xlink:href="#path-1"></use>
+            <rect id="矩形" fill="url(#linearGradient-3)" mask="url(#mask-2)" x="0" y="0" width="375" height="634"></rect>
+            <rect id="矩形" fill="url(#linearGradient-4)" opacity="0.0561409884" filter="url(#filter-5)" mask="url(#mask-2)" transform="translate(16.062446, 145.480231) rotate(-315.000000) translate(-16.062446, -145.480231) " x="-189.937554" y="-60.5197693" width="412" height="412" rx="49"></rect>
+            <rect id="矩形备份-2" fill="url(#linearGradient-4)" opacity="0.0561409884" filter="url(#filter-6)" mask="url(#mask-2)" transform="translate(350.253355, 84.977705) rotate(-315.000000) translate(-350.253355, -84.977705) " x="235.253355" y="-30.0222946" width="230" height="230" rx="49"></rect>
+        </g>
+    </g>
+</svg>

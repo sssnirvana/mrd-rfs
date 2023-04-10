@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="812px" viewBox="0 0 375 812" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="812"></rect>
+        <linearGradient x1="50%" y1="-16.9547235%" x2="50%" y2="65.869765%" id="linearGradient-3">
+            <stop stop-color="#0D67FF" offset="0.0928758741%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="92.5964959%" y1="60.5495978%" x2="39.2112338%" y2="-19.6368312%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0D67FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-1.4%" y="-1.4%" width="102.8%" height="102.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="35.6243424%" y1="100%" x2="-78.6930504%" y2="125.988684%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0D67FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-2.9%" y="-2.9%" width="105.9%" height="105.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="43.4554532%" y1="72.4127542%" x2="121.849451%" y2="-97.9208667%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D1BD96" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-15.0%" y="-15.0%" width="130.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="01-登录/注册" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG" transform="translate(187.500000, 406.000000) scale(-1, 1) translate(-187.500000, -406.000000) ">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="矩形备份" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="矩形" fill="url(#linearGradient-3)" opacity="0.202897892" mask="url(#mask-2)" x="0" y="0" width="375" height="391"></rect>
+            <rect id="矩形备份-3" fill="url(#linearGradient-4)" opacity="0.252884266" filter="url(#filter-5)" mask="url(#mask-2)" transform="translate(371.393398, 90.000000) scale(-1, 1) rotate(-315.000000) translate(-371.393398, -90.000000) " x="158.893398" y="-122.5" width="425" height="425" rx="69"></rect>
+            <rect id="矩形" fill="url(#linearGradient-6)" opacity="0.30859375" filter="url(#filter-7)" mask="url(#mask-2)" transform="translate(-19.329184, 199.007985) scale(-1, 1) rotate(-315.000000) translate(19.329184, -199.007985) " x="-121.829184" y="96.5079849" width="205" height="205" rx="40"></rect>
+            <circle id="椭圆形" fill="url(#linearGradient-8)" opacity="0.258312137" filter="url(#filter-9)" mask="url(#mask-2)" transform="translate(160.040767, 241.740754) rotate(126.000000) translate(-160.040767, -241.740754) " cx="160.040767" cy="241.740754" r="20"></circle>
+        </g>
+    </g>
+</svg>

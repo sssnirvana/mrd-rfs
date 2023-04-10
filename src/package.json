@@ -1,0 +1,31 @@
+{
+  "name": "kls-merchant",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.23",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "vue-pickers": "^2.5.3",
+    "vconsole": "^3.15.0"
+  },
+  "browserslist": [
+    "Android >= 4",
+    "ios >= 8"
+  ],
+  "uni-app": {
+    "scripts": {
+      "h5-weixin": {
+        "title": "快乐刷小程序",
+        "browser": "chrome",
+        "env": {
+          "UNI_PLATFORM": "H5",
+          "MY_TEST": ""
+        },
+        "define": {
+          "CUSTOM-CONST": true
+        }
+      }
+    }
+  }
+}
